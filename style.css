@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* INICIO */
+.home {
+    height: 100vh;
+    background-image: url(assets/background-homer.webp);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.navHome {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+}
+
+.logoHome {
+    display: flex;
+    align-items: center;
+}
+
+.logoHome span {
+    background-color: #ED931F;
+    width: 100px;
+    height: 100px;
+    margin-right: -60px;
+}
+
+.logoHome h1 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.linkHome ul {
+    display: flex;
+    gap: 30px;
+}
+
+.linkHome ul li {
+    list-style: none;
+}
+
+.linkHome ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.linkHome ul li a:hover {
+    color: #ED931F;
+}
+
+.infoHome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    padding: 50px 150px;
+}
+
+.infoHome h1 {
+    color: #fff;
+    font-size: 50px;
+}
+
+.infoHome p {
+    color: #fff;
+}
+
+.infoHome button {
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    background-color: #ED931F;
+    border: transparent;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.infoHome button:hover {
+    background-color: #c58128;
+}
+
+
+/* SOBRE A EMPRESA */
+.onBusiness {
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.textBusiness {
+    text-align: center;
+    border: 10px solid #B7DFED;
+    padding: 110px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.textBusiness h1 {
+    font-size: 40px;
+    text-align:left;
+    font-weight: 200;
+}
+
+.textBusiness p {
+    color: #4b4b4b;
+    text-align: left;
+    font-size: 17px;
+}
+
+.imgBusiness img {
+    height: 642px;
+    width: 45vw;
+}
+
+/* SERVÇOS */
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px;
+    background-color: #D8EAF0;
+}
+
+.titleServices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.titleServices h1 {
+    font-size: 38px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.borderServices {
+    background-color: #ED931F;
+    width: 200px;
+    text-align: center;
+    height: 7px;
+}
+
+.flexCardServices {
+    display: flex;
+}
+
+.cardService {
+    height: 75vh;
+    width: 20vw;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.cardService img {
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+.textCards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.textCards h1 {
+    font-size: 25px;
+}
+
+.textCards p {
+    text-align: center;
+    font-size: 17px;
+}
+
+.cardService button {
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    background-color: #ED931F;
+    border: transparent;
+    transition: 0.2s;
+    cursor: pointer;
+    margin-top: 80px;
+}
+
+.cardService button:hover {
+    background-color: #c58128;
+}
+
+/* NOSSOS CLIENTES */
+
+.clients {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px;
+    background-image: url(assets/background-cliente.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* NAO SEI AO CERTO TRABALHAR COM IMAGENS NO CSS.
+    NAO CONSIGO DEIXAR ELAS INTEIRA... */
+}
+
+.titleClient {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.borderClient {
+    background-color: #ED931F;
+    width: 200px;
+    height: 7px;
+}
+
+.brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.flexBrands1 {
+    display: flex;
+    gap: 80px;
+    flex-direction: row;
+}
+
+.flexBrands2 {
+    display: flex;
+    gap: 80px;
+    flex-direction: row;
+}
+
+.imgBrand img {
+    width: 150px;
+}
+
+/* CONTATO */
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    background-color: #F0E9E9;
+}
+
+.titleContact h1 {
+    font-size: 40px;
+    color: #93B5C4;
+}
+
+.borderContact {
+    margin-top: 10px;
+    background-color: #ED931F;
+    width: 200px;
+    height: 7px;
+}
+
+.contentContact {
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+    padding: 100px;
+}
+
+.formContact {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.textContact {
+    text-align: center;
+
+}
+
+.textContact h1 {
+    color: #ED931F;
+    font-size: 27px;
+    text-align: justifyc;
+}
+
+.textContact p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form input {
+    height: 20px;
+    width: 300px;
+    padding: 15px;
+    border: transparent;
+    outline: none;
+}
+
+.form input:hover {
+    border: 1px solid black;
+}
+
+.form textarea {
+    height: 100px;
+    width: 300px;
+    padding: 15px;
+    border: transparent;
+    outline: none;
+}
+
+.form textarea:hover {
+    border: 1px solid black;
+}
+
+.form button {
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    background-color: #ED931F;
+    border: transparent;
+    transition: 0.2s;
+    cursor: pointer;
+    margin-left: 180px;
+}
+
+
+.descriptionContact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.flexDescriptionContact {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    text-align: center;
+}
+
+.address h1 {
+    color: #ED931F;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.telephone h1 {
+    color: #ED931F;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+/* FOOTER */
+.footer {
+    width: 99vw;
+    height: 50px;
+    background-color: #2E3138;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: #fff;
+}
+
+.iconsRedesSocial {
+    display: flex;
+    gap: 20px;
+}
+
+.imgIconsRedes img {
+    width: 15px;
+    height: 15px;
+}
+
+.textFooter {
+    border-left: 1px solid gray;
+    text-align: center;
+    padding-left: 40px; /* PRA NAO DEIXAR SEM :) */
+}
